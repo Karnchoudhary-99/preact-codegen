@@ -6,7 +6,7 @@
 
 preact-codegen is a simple tool that helps you set up Preact applications with ease. You can describe what your app needs in plain language, and the tool will handle the rest. No complex settings, only a smooth start to your project.
 
-## 🚀 Getting Started
+## 🚀 Getting Started  
 
 Follow these steps to get started with preact-codegen.
 
